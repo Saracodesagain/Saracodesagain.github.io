@@ -2,63 +2,88 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Welcome to My GitHub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sara — Cybersecurity Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    :root {
+      --pink-bg: #fdf2f8;
+      --pink-accent: #e91e63;
+      --text-color: #333;
+    }
+
     body {
       margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to bottom right, #ffe0ec, #f9c2d0);
-      color: #333;
+      padding: 0;
+      background-color: var(--pink-bg);
+      font-family: 'Outfit', sans-serif;
+      color: var(--text-color);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       text-align: center;
-      padding: 60px 20px;
+      min-height: 100vh;
+      padding: 40px 20px;
     }
 
     h1 {
-      color: #d63384;
-      font-size: 3em;
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: var(--pink-accent);
     }
 
     p {
-      font-size: 1.2em;
+      font-size: 1.1rem;
       max-width: 600px;
-      margin: 0 auto 30px;
+      margin-bottom: 30px;
+    }
+
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
     }
 
     .links a {
-      display: inline-block;
-      margin: 10px 15px;
       text-decoration: none;
-      color: #fff;
-      background-color: #d63384;
-      padding: 12px 24px;
-      border-radius: 25px;
-      transition: background 0.3s;
+      padding: 10px 20px;
+      border-radius: 30px;
+      background-color: var(--pink-accent);
+      color: white;
+      font-weight: 600;
+      transition: background 0.3s ease;
     }
 
     .links a:hover {
-      background-color: #ad2668;
+      background-color: #c2185b;
     }
 
     footer {
-      margin-top: 60px;
-      font-size: 0.9em;
-      color: #777;
+      margin-top: auto;
+      font-size: 0.85rem;
+      color: #888;
+      padding-top: 60px;
     }
   </style>
 </head>
 <body>
-  <h1>Hello, I’m Saracodesagain 💻</h1>
+
+  <h1>Hello, I’m Sara 👋</h1>
   <p>
-    Welcome to my GitHub! I’m passionate about cybersecurity, reverse engineering, and building tools that help defenders.
+    I build cybersecurity tools and reverse engineering projects to help defenders learn, detect, and stay one step ahead. 
+    Explore my work, or get in touch below.
   </p>
 
   <div class="links">
     <a href="https://github.com/saracodesagain" target="_blank">GitHub</a>
+    <a href="mailto:you@email.com">Email</a>
+    <a href="https://linkedin.com/in/saracodesagain" target="_blank">LinkedIn</a>
   </div>
 
   <footer>
-    &copy; 2025 Saracodesagain. All rights reserved.
+    &copy; 2025 Sara — Powered by GitHub Pages
   </footer>
+
 </body>
 </html>
